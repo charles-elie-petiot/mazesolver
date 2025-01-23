@@ -24,8 +24,6 @@ class Maze():
 
         self._reset_cells_visited()
 
-        self.solve()
-
     def _create_cells(self):
         self._cells=[]
         for i in range(self.num_cols):
